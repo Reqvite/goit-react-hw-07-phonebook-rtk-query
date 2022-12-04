@@ -1,13 +1,10 @@
 import PropTypes from 'prop-types';
-import { HeroTitle } from "./MainTitle.style"
+import { HeroTitle } from './MainTitle.style';
 
-export const MainTitle = (({ title }) => {
-    return (
-        <HeroTitle>{title}</HeroTitle>
-    )
-    
-})
+export const MainTitle = ({ title }) => {
+  return <HeroTitle>{title}</HeroTitle>;
+};
 
 MainTitle.propTypes = {
-    title: PropTypes.string.isRequired,
-}
+  title: PropTypes.string.isRequired,
+};

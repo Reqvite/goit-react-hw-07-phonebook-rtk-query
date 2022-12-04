@@ -1,24 +1,21 @@
 export const theme = {
-    colors: {
+  colors: {
     primaryTextColor: 'black',
     secondaryTextColor: 'gray',
-    
+
     sectionBgColor: '#D5DBDB',
 
-
     hoverColor: '#909fe4',
-    },
+  },
   fonts: {
     body: 'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif',
     heading: 'Georgia, serif',
     monospace: 'Menlo, monospace',
   },
-  fontSizes: [
-    12, 14, 16, 20, 24, 32, 48, 64,
-  ],
-  space:[0, 4, 8, 16, 32, 64, 128, 256, 512],
-    sizes: {
-      BoxWidth: 300
+  fontSizes: [12, 14, 16, 20, 24, 32, 48, 64],
+  space: [0, 4, 8, 16, 32, 64, 128, 256, 512],
+  sizes: {
+    BoxWidth: 300,
   },
   fontWeights: {
     body: 400,
@@ -37,6 +34,6 @@ export const theme = {
     mainBorder: ' 2px solid #38322f;',
   },
   shadows: {
-      mainShadow:'rgb(38, 57, 77) 0px 20px 30px -10px'
-    }
-}
+    mainShadow: 'rgb(38, 57, 77) 0px 20px 30px -10px',
+  },
+};

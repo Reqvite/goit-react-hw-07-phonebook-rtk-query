@@ -1,12 +1,10 @@
 import PropTypes from 'prop-types';
-import { Title } from "./SecondaryTitle.style"
+import { Title } from './SecondaryTitle.style';
 
-export const SecondaryTitle = (({ title }) => {
-    return (
-        <Title>{title}</Title>
-    )  
-})
+export const SecondaryTitle = ({ title }) => {
+  return <Title>{title}</Title>;
+};
 
 SecondaryTitle.propTypes = {
-    title: PropTypes.string.isRequired,
-}
+  title: PropTypes.string.isRequired,
+};
